@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <record model="openacademy.course" id="course0">
+            <field name="name">Engineering</field>
+            <field name="description"> The basic requirement for this Course
+              is 12th pass with PCM group.
+            </field>
+        </record>
+
+        <record model="openacademy.course" id="course1">
+            <field name="name">Medical</field>
+            <field name="description">
+                The basic requirement for this course is 12th pass with PCB group
+            </field>
+        </record>
+
+        <record model="openacademy.course" id="course2">
+            <field name="name">Arts</field>
+            <field name="description">The basic requirement for this course is 12th class with any stream</field>
+        </record>
+    </data>
+</odoo>
