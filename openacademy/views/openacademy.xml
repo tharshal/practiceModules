@@ -18,6 +18,8 @@
             </field>
         </record>
 
+
+
         <!-- top level menu: no parent -->
         <menuitem id="main_openacademy_menu" name="Open Academy"/>
         <!-- A first level in the left side menu is needed
