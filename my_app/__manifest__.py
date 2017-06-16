@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "openacademy",
+    'name': "myApp",
 
     'summary': """
-        Modules for odoo""",
+    This is my first application""",
 
-    'description': """Courses Names and their Description
+    'description': """
+        Basic practice of odoo
     """,
 
     'author': "techspawn",
@@ -22,16 +23,12 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'views/openacademy.xml',
-        'views/openacademyMyview.xml',
-        'views/openacaSession.xml'
-        #'demo/demo.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        #'demo/demo.xml',
+        'demo/demo.xml',
     ],
 }
