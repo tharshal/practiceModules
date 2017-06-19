@@ -33,6 +33,14 @@
                               <page string="Description">
                                   <field name="description"/>
                               </page>
+                              <page string="Sessions">
+                                  <field name="session_ids">
+                                      <tree string="Registered sessions">
+                                          <field name="name"/>
+                                          <field name="instructor_id"/>
+                                      </tree>
+                                  </field>
+                                </page>
                               <page string="Requirements">
                                   <field name="about"/>
                               </page>
@@ -40,7 +48,7 @@
                                   <field name="courseDuration"/>
                               </page>
                               <page string="Instructor">
-                                <field name = "responsible_id"/>
+                                <field name="responsible_id"/>
                               </page>
                           </notebook>
                       </sheet>

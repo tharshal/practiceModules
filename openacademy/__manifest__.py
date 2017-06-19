@@ -28,7 +28,7 @@
         'views/openacademy.xml',
         'views/openacademyMyview.xml',
         'views/openacaSession.xml',
-        #'views/partner.xml'
+        'views/partner.xml'
         #'demo/demo.xml',
     ],
     # only loaded in demonstration mode
